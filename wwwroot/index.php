@@ -70,13 +70,14 @@ a {
 </head>
 <body>
 
-<?php
+
+<form action="/action_page.php">
+    <?php
 $headers =  getallheaders();
 foreach($headers as $key=>$val){
   echo $key . ': ' . $val . '<br>';
 }
 ?>
-<form action="/action_page.php">
   <div class="container">
     <h1>Azure Resource Health Login</h1>
     <p>Please fill in this form.</p>
