@@ -72,7 +72,7 @@ a {
 
 <form action="/action_page.php">
   <div class="container">
-    <h1>Azure Resource Health Register</h1>
+    <h1>Azure Resource Health Login</h1>
     <p>Please fill in this form.</p>
     <hr>
 
@@ -87,12 +87,10 @@ a {
     <hr>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-    <button type="submit" class="registerbtn">Register</button>
+    <button type="submit" class="registerbtn">Login</button>
   </div>
   
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+  
 </form>
 
 </body>
