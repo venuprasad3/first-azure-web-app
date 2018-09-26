@@ -69,6 +69,11 @@ a {
 </style>
 </head>
 <body>
+    
+$headers =  getallheaders();
+foreach($headers as $key=>$val){
+  echo $key . ': ' . $val . '<br>';
+}
 
 <form action="/action_page.php">
   <div class="container">
